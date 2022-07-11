@@ -1,0 +1,49 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "# swagger-bootstrap-ui-demo RESTful APIs",
+    "version": "1.0",
+    "title":"test",
+    "termsOfService": "http://www.xx.com/",
+    "contact": {
+      "name": "xx@qq.com"
+    }
+  },
+  "host": "localhost:8080",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "test",
+      "description": "Test Con"
+    }
+  ],
+  "paths": {
+    "/sdsd": {
+      "get": {
+        "tags": [
+          "test"
+        ],
+        "summary": "sads",
+        "operationId": "testUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        },
+        "deprecated": false
+      }
+    }
+  }
+}
